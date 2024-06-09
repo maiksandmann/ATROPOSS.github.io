@@ -5,6 +5,7 @@ plugins:
 gem "github-pages", group: :jekyll_plugins
 
 title: [ATROPOSS]
+
 description: [ATROPOSS is an opensource solution to provide user a scoping and discovery solution]
 
 # show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
@@ -16,13 +17,16 @@ github:
   repository_url: https://github.com/atroposs-migration/atroposs-sample-module
 
 
-sidebar:
-  - getting-started
-  - label: Dev Docs
-    children:
-      - doc-1
-      - doc-2
-  - deployment
+---
+  defaults:
+    # _docs
+    - scope:
+        path: ""
+        type: main
+      values:
+        sidebar:
+          nav: "main"
+  --- 
 
 
   
