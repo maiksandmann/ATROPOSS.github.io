@@ -6,3 +6,5 @@ gem "github-pages", group: :jekyll_plugins
 
 title: [ATROPOSS]
 description: [ATROPOSS is an opensource solution to provide user a scoping and discovery solution]
+
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
