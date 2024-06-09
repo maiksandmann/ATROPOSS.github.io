@@ -17,16 +17,6 @@ github:
   repository_url: https://github.com/atroposs-migration/atroposs-sample-module
 
 
----
-  defaults:
-    # _docs
-    - scope:
-        path: ""
-        type: main
-      values:
-        sidebar:
-          nav: "main"
-  --- 
 
 
   
