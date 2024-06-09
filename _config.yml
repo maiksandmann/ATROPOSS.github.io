@@ -13,5 +13,8 @@ show_downloads: [true]
 github:
   zip_url: https://github.com/atroposs-migration/atroposs-sample-module/archive/refs/heads/main.zip
   tar_url: https://github.com/atroposs-migration/atroposs-sample-module/archive/refs/heads/main.tar
-  github_url: https://github.com/atroposs-migration/atroposs-sample-module
+  repository_url: https://github.com/atroposs-migration/atroposs-sample-module
 
+
+sidebar:
+  - getting-started
